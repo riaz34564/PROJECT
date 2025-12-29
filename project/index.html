@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Riaz-Shoe Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <h2>👟 Riaz-ShoeStore</h2>
+  <ul>
+    <li><a href="index.html">Store</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="support.html">Support</a></li>
+    <li><a href="login.html">Login</a></li>
+  </ul>
+</nav>
+
+<header class="hero">
+  <h1 class="fade-in">Step Into Style</h1>
+
+  <input type="text" id="search" placeholder="Search shoes...">
+
+  <div class="filters">
+    <button onclick="filterCategory('all')">All</button>
+    <button onclick="filterCategory('men')">Men</button>
+    <button onclick="filterCategory('women')">Women</button>
+    <button onclick="filterCategory('child')">Child</button>
+  </div>
+
+  <p>🛒 Cart: <span id="cart-count">0</span></p>
+</header>
+
+<main>
+  <div id="product-list" class="products"></div>
+</main>
+
+<footer>
+  <p>© 2025 Riaz-Shoe Store Project </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
